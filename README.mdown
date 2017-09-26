@@ -1,19 +1,19 @@
-examples \o/
-=============
+# eth examples \o/
 
-Contents: 
+## Contents: 
+
 
 * token.sol: minimal contract with example on how to change a contract attribute (exchangeRate)
 * deploy.js: minimal example for a home-made deploy script
 * index.js: example on how to initialize a JS object for the contract and interact with it
 * wallet.json: wallet data incl. private key - added this here just to make it easier to use
 
-0. setup
+## 0. setup
 
     $ npm install (from this directory)
     $ parity --chain=dev ui
 
-1. run the deploy script
+## 1. run the deploy script
 
     $ node deploy.js
 
@@ -21,7 +21,8 @@ This will try to connect to your parity node on localhost:8545 and compile and d
 It will print the address of the deployed contract and it will write it to `contract-metadata.js`
 It will also try to send some ETH to our wallet (wallet.json) to allow it to interact with the contract.
 
-2. interact with the contract
+
+## 2. interact with the contract
 
     $ node index.js
 
