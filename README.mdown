@@ -7,6 +7,7 @@
 * deploy.js: minimal example for a home-made deploy script
 * index.js: example on how to initialize a JS object for the contract and interact with it
 * wallet.json: wallet data incl. private key - added this here just to make it easier to use
+* index.html: dapp example on how to build a UI for the contract and interact through a provided web3 (metamask for example)
 
 ## 0. setup
 
