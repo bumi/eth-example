@@ -27,3 +27,9 @@ It will also try to send some ETH to our wallet (wallet.json) to allow it to int
     $ node index.js
 
 This will load the wallet and interact with the deployed contract. It will read the currect exchange rate and set the exchange rate. (examples on how to interact)
+
+## 3. run the dapp in index.html
+
+    $ python -m SimpleHTTPServer 8000
+
+index.html contains some HTML and JS as an example on how to interact with the contract through metamask (or any other externally provided web3)
